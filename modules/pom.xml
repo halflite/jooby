@@ -27,6 +27,7 @@
     <module>jooby-jdbi</module>
     <module>jooby-hibernate</module>
     <module>jooby-flyway</module>
+    <module>jooby-jedis</module>
 
     <module>jooby-jackson</module>
     <module>jooby-freemarker</module>

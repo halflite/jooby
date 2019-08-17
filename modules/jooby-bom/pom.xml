@@ -53,6 +53,7 @@
   <javax.inject.version>1</javax.inject.version>
   <jboss-modules.version>1.9.1.Final</jboss-modules.version>
   <jdbi.version>3.9.0</jdbi.version>
+  <jedis.version>2.10.0</jedis.version>
   <jetty.version>9.4.19.v20190610</jetty.version>
   <jooby-maven-plugin.version>2.0.3</jooby-maven-plugin.version>
   <jooby.version>2.0.3</jooby.version>
@@ -157,6 +158,11 @@
     <dependency>
       <groupId>io.jooby</groupId>
       <artifactId>jooby-jdbi</artifactId>
+      <version>${jooby.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.jooby</groupId>
+      <artifactId>jooby-jedis</artifactId>
       <version>${jooby.version}</version>
     </dependency>
     <dependency>
@@ -338,6 +344,11 @@
       <groupId>org.jdbi</groupId>
       <artifactId>jdbi3-core</artifactId>
       <version>${jdbi.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>${jedis.version}</version>
     </dependency>
     <dependency>
       <groupId>com.h2database</groupId>
